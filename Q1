@@ -3,6 +3,6 @@ def solution(my_string, target):
   if target in my_string: #target이 my_string의 부분 문자열이라면,
     if 1<=len(my_string)<=100 and 1<=len(target)<=100 and my_string.islower() and target.islower():
     #target과 my_string의 문자열 길이가 1~100까지고 영소문자로만 이루어져 있다면,
-      answer = 1 #answer을 1로 결정
+      answer = 1 #answer을 1로 설정
 
   return answer #answer을 반환
