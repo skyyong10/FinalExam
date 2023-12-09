@@ -1,0 +1,7 @@
+def solution(age):
+	answer = ' '
+	alphabet = ('a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j') #list 함수로 값을 alphabet에 입력
+	for A in str(age): #age를 문자열로 변환하여 A에 한 글자씩 넣음
+		answer += alphabet[int(A)] 
+		#A가 문자면 입력이 안되기 때문에 int로 숫자형태로 바꿔주고 answer에 저장
+	return answer
